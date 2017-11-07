@@ -1,0 +1,12 @@
+<!DOCTYPE xml>
+<Context path="context.root" relodable="true" >
+	<Resource name="agendaDataSource" 
+	          auth="Container" 
+	          type="javax.sql.DataSource"
+		      username="sa" 
+		      password="123456" 
+		      url="jdbc:jtds:sqlserver://localhost/AGENDA"
+		      driverClassName="net.sourceforge.jtds.jdbc.Driver" 
+		      validationQuery="select 1" />
+</Context>
+
